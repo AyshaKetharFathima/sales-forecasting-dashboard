@@ -1,33 +1,45 @@
-## 📊 Sales Forecasting Dashboard
+# 📊 Sales Forecasting Dashboard
 
-This project predicts the sales of retail items based on product and outlet features using a trained machine learning model.
-
-### 🔗 Live Web App
-Access the deployed Streamlit app here:
-
-👉 [Sales Forecasting Dashboard](https://sales-forecasting-dashboard-btewqjeloivevru3wc6qig.streamlit.app/)
+## 📌 Project Overview
+This project predicts retail product sales based on product type, outlet details, and historical data using a Machine Learning model.
 
 ---
 
-### 💡 Features
-- Interactive form for entering product and outlet details.
-- Real-time sales prediction using trained regression model.
-- Deployed using Streamlit Cloud.
+## 🎯 Problem Statement
+Businesses struggle to estimate future sales accurately. This project helps predict sales to improve inventory and decision-making.
 
 ---
 
-### 📁 Files Included
-- `week1_DataExploration.ipynb`: Data analysis
-- `week2.ipynb`: Cleaning & preprocessing
-- `week3_model_built_final.ipynb`: Model training
-- `model.pkl`: Saved ML model
-- `app.py`: Streamlit web app code
-- `requirements.txt`: Dependencies list
+## 🧠 Solution
+A regression-based machine learning model is trained on historical data and deployed using a Streamlit web application for real-time predictions.
 
 ---
 
-### 🚀 How to Run Locally
+## ⚙️ Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Streamlit
 
+---
+
+## 🚀 Features
+- User-friendly input form
+- Real-time sales prediction
+- End-to-end ML pipeline (data → model → deployment)
+
+---
+
+## 📂 Project Structure
+- Data Exploration → `week1_DataExploration.ipynb`
+- Data Cleaning → `week2.ipynb`
+- Model Training → `week3_model_built_final.ipynb`
+- Model File → `model.pkl`
+- Web App → `app.py`
+
+---
+
+## ▶️ How to Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
