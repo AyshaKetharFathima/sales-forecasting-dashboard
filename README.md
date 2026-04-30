@@ -43,3 +43,4 @@ A regression-based machine learning model is trained on historical data and depl
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+![App Screenshot](sales-dashboard.png)
