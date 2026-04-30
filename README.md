@@ -38,9 +38,12 @@ A regression-based machine learning model is trained on historical data and depl
 - Web App → `app.py`
 
 ---
+## 🌐 Live Demo
+👉 https://sales-forecasting-dashboard-btewqjeloivevru3wc6qig.streamlit.app/
 
 ![App Screenshot](sales-dashboard.png)
 ## ▶️ How to Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
